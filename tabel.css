@@ -1,0 +1,89 @@
+body {
+   
+    background: #f0f0f0;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  
+  h1 {
+    color: #333;
+  }
+  
+  
+  table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  
+  td {
+    border: 1px solid #999;
+    width: 80px;
+    height: 90px;
+    vertical-align: middle;
+    font-size: 11px;
+    padding: 2px;
+    position: relative;
+    text-align: center;
+  }
+  
+  
+  .atomic-number {
+    position: absolute;
+    top: 2px;
+    left: 4px;
+    font-size: 9px;
+    font-weight: bold;
+  }
+  
+  
+  .symbol {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 6px 0 4px;
+  }
+  
+  
+  .name {
+    margin: 2px 0;
+    font-size: 10px;
+  }
+  
+  
+  .mass {
+    font-size: 9px;
+    margin-top: 2px;
+  }
+  
+  
+  .metais-alcalinos { background:  #d89d44; }
+  .metais-alcalino-terrosos { background: #d6d615; }
+  .metais-transicao { background: #bd3b41ee; }
+  .nao-metais { background: #ccffcc; }
+  .halogenios { background: #99ffff; }
+  .gases-nobres { background: #ccccff; }
+  
+  .semimetais { background: #ccff99; }
+  .lantanideos { background: #ff99ff; }
+  .actinideos { background: #ffccff; }
+  .outros-metais { background: #e6e6e6; }
+  
+  
+  .empty {
+    background: transparent;
+    border: none;
+  }
+  
+  
+  .legenda td {
+    height: 50px;
+    font-size: 11px;
+    vertical-align: middle;
+  }
+  .grenn{
+    background-color: #ccff99; }
+   
+  
